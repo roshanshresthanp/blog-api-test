@@ -32,7 +32,6 @@ class MainController extends Controller
     }
 
     public function authorArticle(){
-        // $author = Author::all();
         return new AuthorCollection(Author::all());
     }
     
